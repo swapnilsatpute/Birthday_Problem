@@ -41,13 +41,13 @@ the plotted curve demonstrates the same.
 
 									
 ##[1] Number of trials
-	Although the nature of curve starts taking shape with trials as low as 10,
-	more than 600 trials are required to get satisfactorily smooth curve and more
-	accurate values.
+ Although the nature of curve starts taking shape with trials as low as 10,
+more than 600 trials are required to get satisfactorily smooth curve and more
+accurate values.
 
 ##[2] Random birthdate Generation
-	Days of year are modeled from 0 to 364(365 days) using an array.
-	A random day is selected as birthdate in range 0 to 364 using construct 
-	random()*365 returning values in range [0,365).
-	The random() implements linear congruential generator hence even distribution
-	over the range is mostly guaranteed.
+ Days of year are modeled from 0 to 364(365 days) using an array.
+A random day is selected as birthdate in range 0 to 364 using construct 
+random()*365 returning values in range [0,365).
+The random() implements linear congruential generator hence even distribution
+over the range is mostly guaranteed.
